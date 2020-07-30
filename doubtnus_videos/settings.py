@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'doubtnus_videos.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-DATABASES = {
+DATABASES = {  #YOUR POSTGRES DB,USER,NAME,PASS,HOST,PORT
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME':'VideoDoubtnuts',
@@ -109,10 +109,10 @@ AUTH_PASSWORD_VALIDATORS = [
 # AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
 # AWS_STORAGE_BUCKET_NAME = os.environ.get('AWS_STORAGE_BUCKET_NAME')
 
-AWS_ACCESS_KEY_ID = 'AKIA4NXSX7IDKARMNFCS'
-AWS_SECRET_ACCESS_KEY = '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'
-AWS_STORAGE_BUCKET_NAME = 'videos-doubtnuts'
-AWS_S3_REGION_NAME = 'ap-south-1'
+AWS_ACCESS_KEY_ID = 'AWS_ACCESS_KEY_ID'
+AWS_SECRET_ACCESS_KEY = 'AWS_SECRET_KEY_ID'
+AWS_STORAGE_BUCKET_NAME = 'videos-doubtnuts' # YOUR AWS BUCKET NAME
+AWS_S3_REGION_NAME = 'ap-south-1' #YOUR AWS REGION NAME
 
 
 AWS_S3_FILE_OVERWRITE = False
