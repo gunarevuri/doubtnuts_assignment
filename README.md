@@ -4,11 +4,11 @@
 
 2.Enter your aws iam user credentials key_id and secret_key_id
 
-3.Enter your bucket name and region where you bucket present
+3.Enter your bucket name and region where you bucket present in the settings.py file.
 
 5.Enter your Postgres database credentials.
 
-6.After that Run
+6.Then Run
 
 ```
 python3 manage.py makemigrations
@@ -20,7 +20,7 @@ It will create migrations folder and contain all required maigrations over db, t
 python3 manage.py migrate
 ```
 
-Then it will automatically create all tables with required columns.I think 17 relations will be created.Then create superuser
+Then it will automatically create all tables with required columns.I think 17 relations will be created.Then create superuser for django admin 
 
 ```
 python3 manage.py createsuperuser
