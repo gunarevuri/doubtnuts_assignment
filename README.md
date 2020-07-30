@@ -1,5 +1,5 @@
 # doubtnuts_assignment
-- To run this project
+#### To run this project
 1.Clone the project
 
 2.Enter your aws iam user credentials key_id and secret_key_id
@@ -34,4 +34,4 @@ python3 manage.py collectstatic
 
 If you run your ```python3 manage.py runserver``` command it will automatically fetch data required for admin page from AWS S3 bucket.
 
-####For this project Frontend is not developed only REST API
+#### For this project Frontend is not developed only REST API
